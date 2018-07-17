@@ -1,0 +1,41 @@
+input {
+  padding: 10px;
+  margin: 20px; }
+
+body {
+  background-color: #f1f1fd; }
+
+* {
+  box-sizing: border-box;
+  background-color: aliceblue; }
+
+.header {
+  text-align: center;
+  color: purple;
+  background-color: powderblue;
+  padding: 30px;
+  margin-top: 20px;
+  border: 2px outset gray;
+  box-shadow: 4px 10px black; }
+  .header h1 {
+    background-color: powderblue; }
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  width: 32%;
+  background-color: rgba(255, 0, 0, 0.2);
+  border-radius: 10px 30px;
+  padding: 20px;
+  box-shadow: 4px 10px black;
+  position: relative; }
+  .container label {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: purple; }
+  .container input {
+    position: absolute;
+    margin-left: 150px; }
+  .container input[type=submit] {
+    margin-left: 250px; }
+
+/*# sourceMappingURL=common.css.map */

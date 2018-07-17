@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "    float": expected ";", was ":right;"
+        on line 117 of common.scss
+
+112: .active {
+113:     background-color: #20b2aa;
+114: }
+115: #imgblock{
+116:     width:50px
+117:     float:right;
+118:     clear:none;
+119: }
+120: #imgblock img{
+121:     max-width: 100%;
+122: }
+
+Backtrace:
+common.scss:117
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1179:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1115:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1110:in `tok!'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:775:in `block in try_declaration'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1155:in `rethrow'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:780:in `try_declaration'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:709:in `declaration_or_ruleset'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:663:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:655:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:647:in `ruleset'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:673:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:123:in `stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:39:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:403:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:378:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:295:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:410:in `run'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    float\": expected \";\", was \":right;\"\A         on line 117 of common.scss\A \A 112: .active {\A 113:     background-color: #20b2aa;\A 114: }\A 115: #imgblock{\A 116:     width:50px\A 117:     float:right;\A 118:     clear:none;\A 119: }\A 120: #imgblock img{\A 121:     max-width: 100%;\A 122: }"; }

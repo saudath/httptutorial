@@ -1,0 +1,14 @@
+<head>
+	<script type="text/javascript">
+		function previewFile(){
+       
+       		var file    = document.querySelector('input[type=file]').files[0]; //sames as here
+       		var reader  = new FileReader();
+       		reader.readAsDataURL(file); 
+       		console.log(reader.result);}
+	</script>
+</head>
+<body>
+	<input type="file" 
+	onchange="previewFile()">
+</body>

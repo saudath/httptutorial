@@ -1,0 +1,51 @@
+
+$bg:aliceblue;
+$header:purple;
+$border:2px outset gray;
+$shadow:4px 10px black;
+$lightred:rgba(255,0,0,0.2);
+@import 'login';
+
+body{
+	background-color:#f1f1fd;
+}
+*{box-sizing:border-box;
+background-color:$bg;}
+
+.header{
+	text-align:center;
+	color:$header;
+	background-color:powderblue;
+	padding:30px;
+	margin-top:20px;
+	border:$border;
+	box-shadow:$shadow;
+	h1
+	{
+	background-color:powderblue;
+	}
+}
+.container{
+	margin:auto;
+	margin-top:100px;
+	width:32%;
+	background-color:$lightred;
+	border-radius:10px 30px;
+	padding:20px;
+	box-shadow:$shadow;
+	position:relative;
+
+label{
+	background-color:$lightred;
+	color:$header;
+	}
+	input
+	{
+	
+	margin-left:150px;
+	}
+	input[type=submit]
+	{
+	margin-left:250px;
+	}
+}
